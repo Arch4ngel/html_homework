@@ -267,21 +267,80 @@
         </header>
 
         <main class="row">
-            <div class="row text-center">
-                <div class="col-4">
-                    <div class="card mb-4 rounded-3 shadow-sm">
-                        <div class="card-header py-3">
-                            <h4 class="my-0 fw-normal">Товар 1</h4>
+            <div class="container overflow-hidden text">
+                <div class="row text-center">
+                    <div class="col-4">
+                        <div class="card mb-4 rounded-3 shadow-sm">
+                            <div class="card-header py-3">
+                                <h4 class="my-0 fw-normal">Товар 1</h4>
+                            </div>
+                            <div class="card-body">
+                                <h2 class="card-title pricing-card-title">$100</h2>
+                                <p>
+                                    10 users included,
+                                    2 GB of storage,
+                                    Email support,
+                                    Help center access
+                                </p>
+                                <button type="button" class="w-100 btn btn-lg btn-success">Купить</button>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h2 class="card-title pricing-card-title">$100</h2>
-                            <p>
-                                10 users included,
-                                2 GB of storage,
-                                Email support,
-                                Help center access
-                            </p>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Купить</button>
+                    </div>
+                    <div class="col-4">
+                        <form>
+                          <div class="mb-3">
+                            <label for="exampleInputName1" class="form-label">Имя</label>
+                            <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">E-Mail</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1">
+                          </div>
+                          <button type="submit" class="btn btn-primary">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container overflow-hidden text">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="d-inline-flex gap-1">
+                          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+                            Как купить?
+                          </a>
+                        </p>
+                        <div class="collapse" id="collapseExample1">
+                          <div class="card card-body">
+                            Нажимаете кнопку купить, указываете имя и электронную почту, на почту придет ссылка на оплату
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="d-inline-flex gap-1">
+                          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                            Как доставить?
+                          </a>
+                        </p>
+                        <div class="collapse" id="collapseExample2">
+                          <div class="card card-body">
+                            С вами свяжутся
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="d-inline-flex gap-1">
+                          <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                            Какая гарантия?
+                          </a>
+                        </p>
+                        <div class="collapse" id="collapseExample3">
+                          <div class="card card-body">
+                            Гарантия 30 секунд
+                          </div>
                         </div>
                     </div>
                 </div>
