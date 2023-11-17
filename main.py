@@ -13,7 +13,7 @@ class MyServer(BaseHTTPRequestHandler):
     """
 
     def __get_html_content(self):
-        with open(os.path.join(os.path.dirname(__file__), 'index.html')) as f:
+        with open(os.path.join(os.path.dirname(__file__), 'index.html'), encoding="utf-8") as f:
             data = f.read()
         return data
 
